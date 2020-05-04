@@ -1,0 +1,27 @@
+este archivo es de texto plano para las variables.
+
+/////////////////////////////DANIEL/////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////CARLOS//////////////////////////////////////////////////
+verificar los metodos de envio con js
+la base de datos permite ingresos con correo y numeros de telefono
+importante correr el login desde el xamp ya que la firebase lo exije asi
+documentacion de las geofence: https://sdk.wialon.com/playground/demo/get_zone_params
