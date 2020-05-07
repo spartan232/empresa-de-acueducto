@@ -10,20 +10,39 @@
     <div class="login_box">
         <img class="img_log" src="imagenes/logo.png" alt="logo">
         <h1>inicia sesion</h1>
-        <form action="login.php" method="POST">
+        <form >
             <!--nombre de usuario-->
             <label for="username">Nombre de usuario</label>
             <input type="text" placeholder="ingresar nombre de usuario"> 
             <!--contraseña -->
             <label for="password">Contraseña</label>
             <input type="password" placeholder="ingresar la contraseña"> 
-
-            <input type="submit" value="ingresar">
-        <!--
-            <a href="#">¿olvidaste tu contraseña?</a>                     
-            -->
+            <!-- id de validacion para la firebase -->
+            <input type="submit" value="ingresar" id="validar">
         </form>
     </div>
+    <!-- scripts de la firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyBvXYTHWDybTv2R9hqJgEa80Esmq5l3fYg",
+          authDomain: "pruebas-7cc95.firebaseapp.com",
+          databaseURL: "https://pruebas-7cc95.firebaseio.com",
+          projectId: "pruebas-7cc95",
+          storageBucket: "pruebas-7cc95.appspot.com",
+          messagingSenderId: "93439365785",
+          appId: "1:93439365785:web:5eb191785365edc0999e08",
+          measurementId: "G-756VKMR98D"
+        };
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+      <!-- script de jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- script propio -->
+     <script src="consumo/validar.js"></script>
 </body>
 
 </html>
