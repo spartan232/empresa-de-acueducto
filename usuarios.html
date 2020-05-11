@@ -12,46 +12,64 @@
 </head>
 <body>
   <div id="sidebar">
-    <div class="toggle-btn"></div>
-  </div>
- <br>
- <br>
-  
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="container">
-            <a href="usuarios.html"><img src="imagenes/logo.png" alt="logo" class="logo" ></a>
-            <br>
-            <br>
-            <button type="button" class="btn btn-primary btn-lg btn-block">Activar</button>
-            <br>
-            <br>
-            <button type="button" class="btn btn-secondary btn-lg btn-block">Salir
-
-            </button>
-            <br>
+    <div class="toggle-btn">
+      <span>&#9776;</span>
+    </div>
+    <ul>
+      <li>
+        <img src="imagenes/logo.png" alt="logo" class="logo" width="100px" >
+      </li>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+      <div class="card mb-3" style="max-width: 540px; ">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="imagenes/persona.png" class="card-img" alt="..." width="60px">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Nombre de usuario</h5>
+            </div>
           </div>
         </div>
-        <br>
-        <div class="col-sm-8"> 
-          <br>
-          <form>
-            <div class="form-row container-sm">
-              <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="City">
-              </div>
-              <div class="col-sm-6 ">
-                <input type="text" class="form-control" placeholder="State">
-              </div>
-              
-              
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="imagenes/persona.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Nombre de usuario</h5>
             </div>
-          </form>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="imagenes/persona.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Nombre de usuario</h5>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  
+    <br>
+      <div class="container">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+        <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+    </div>
+    
+    </ul>
+  </div>
 
+  <script src="js/main.js"></script>
 </body>
 </html>
+
