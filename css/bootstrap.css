@@ -537,6 +537,8 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  
+
 }
 
 @media (min-width: 576px) {
@@ -569,6 +571,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+ 
 }
 
 @media (min-width: 576px) {
@@ -4826,7 +4829,7 @@ input[type="button"].btn-block {
 .card-img-bottom {
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 100%;
+  max-width: 100%;
 }
 
 .card-img,

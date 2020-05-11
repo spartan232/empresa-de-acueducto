@@ -119,7 +119,7 @@ margin-bottom: 20px;
   
   #sidebar .toggle-btn {
     position: absolute;
-    left: 320px;
+    left: 300px;
     top: 15px;
     cursor: pointer;
   }
@@ -131,4 +131,40 @@ margin-bottom: 20px;
     font-size: 30px;
     border: NONE;
     color:#000;
+  }
+  .user{
+    border-radius: 25px;
+    background: rgba(230, 230, 230, .9);
+    width:100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+   
+  }
+  .img-user {
+    position: static;
+    left: 0px;
+    top: 12%;
+    width: 60%;
+    height: auto;
+    border-radius: ;
+  }
+  .container-edit{
+    width: 100%;
+    padding-right: 0%;
+    padding-left: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  
+  }
+  .container-button{
+    width: 100%;
+  padding-right: 7%;
+  padding-left: 7%;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  padding-top:0%;
+  
   }
