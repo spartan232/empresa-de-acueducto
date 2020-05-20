@@ -11,23 +11,36 @@
 
 </head>
 <body>
-  
-  <!--contenedor de la barra lateral-->
-  <div id="sidebar" class="active">
-    <div class="toggle-btn">
-      <span>&#9776;</span>
+  <input type="checkbox" id="check">
+  <label for="check">
+      <span id="btn" >&#9776;</span>
+  </label>
+   <!--contenedor de la barra lateral-->
+  <div class="sidebar">
+<!--contenedor de la barra lateral-->
+
+  <ul>
+    <!-- imagen de logo de empresa-->
+    <li>
+     <br>
+      <img src="imagenes/logo.png" alt="logo" class="logo" width="150px" >
+    </li>
+    <br>
+    <br>
+    <br>
+    <!--seccion de usuarios--> 
+    <li>
+    <div class="container-edit">
+      <div class="container px-lg">
+        <div class="row mx-lg user">
+          <div class="col py-3 px-lg "><img src="imagenes/persona.png" alt="usuario" class="img-user"> </div>
+          <div class="col py-3 px-lg "><span class="text-middle">User</span></div>
+        </div>
+      </div>
     </div>
-    <ul>
-      <!-- imagen de logo de empresa-->
-      <li>
-       <br>
-        <img src="imagenes/logo.png" alt="logo" class="logo" width="150px" >
-      </li>
-      <br>
-      <br>
-      <br>
-      <!--seccion de usuarios--> 
-      <li>
+  </li>
+    <br>
+    <li>
       <div class="container-edit">
         <div class="container px-lg">
           <div class="row mx-lg user">
@@ -37,42 +50,48 @@
         </div>
       </div>
     </li>
-      <br>
-      <li>
-        <div class="container-edit">
-          <div class="container px-lg">
-            <div class="row mx-lg user">
-              <div class="col py-3 px-lg "><img src="imagenes/persona.png" alt="usuario" class="img-user"> </div>
-              <div class="col py-3 px-lg "><span class="text-middle">User</span></div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <br>
-      <li>
-        <div class="container-edit">
-          <div class="container px-lg">
-            <div class="row mx-lg user">
-              <div class="col py-3 px-lg "><img src="imagenes/persona.png" alt="usuario" class="img-user"> </div>
-              <div class="col py-3 px-lg "><span class="text-middle">User</span></div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <br>
     <br>
-    <!--botones validar o cancelar-->
-      <div class="container-button">
-        <button type="button" class="btn btn-primary btn-lg btn-block">Activar</button>
-        <button type="button" class="btn btn-secondary btn-lg btn-block">Cancelar</button>
-    </div>
-    
-    </ul>
+    <li>
+      <div class="container-edit">
+        <div class="container px-lg">
+          <div class="row mx-lg user">
+            <div class="col py-3 px-lg "><img src="imagenes/persona.png" alt="usuario" class="img-user"> </div>
+            <div class="col py-3 px-lg "><span class="text-middle">User</span></div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <br>
+  <br>
+  <!--botones validar o cancelar-->
+    <div class="container-button">
+      <button type="button" class="btn btn-primary btn-lg btn-block">Activar</button>
+      <button type="button" class="btn btn-secondary btn-lg btn-block">Cancelar</button>
   </div>
+  
+  </ul>
 </div>
-  <!--fin contenedor de barra lateral-->
+</div>
+<!--fin contenedor de barra lateral-->
+<section>
+  <div class="container">
+    <p class="text-center">HOJA DIARIA DE RUTA DE RECOLECCIÓN Y TRANSPORTE</p>
+    <br>
+    <form>
+      <div class="row">
+        <div class="col-sm-6">
+          <input type="text" class="form-control" placeholder="">
+          <br>
+        </div>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" placeholder="">
+        </div>
+      </div>
+    </form>
+  </div>
 
-  <script src="js/main.js"></script>
+
+</section>
 </body>
 </html>
 
