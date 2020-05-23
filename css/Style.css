@@ -200,6 +200,9 @@ margin-bottom: 20px;
     position: absolute;
     padding-top:0%;  
     }
+    .borde{
+      border: 1px solid rgb(184, 181, 181);
+    }
   
    
   

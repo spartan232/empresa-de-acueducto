@@ -936,7 +936,7 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-    background: rgba(153, 153, 153, 0.5);
+    
   }
   .col-sm-5 {
     -ms-flex: 0 0 41.666667%;
